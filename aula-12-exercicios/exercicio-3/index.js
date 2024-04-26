@@ -39,4 +39,5 @@ function divisao ()
     return resultado
 }
 
+console.log("Números informados:", n1, "e", n2)
 console.log("Soma:", soma(), "\nDiferença:", subtracao(), "\nMultiplicação:", multiplicacao(), "\nDivisão:", divisao())
