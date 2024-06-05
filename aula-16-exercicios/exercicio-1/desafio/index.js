@@ -19,20 +19,14 @@ let valorTotalInfo
 if(tipoJogo===`DO`){
      ingressoValor = tabelaValores[etapaJogo][categoria]
      ingressoInfo = `R$ ${ingressoValor}`
+     let valorTotal = ingressoUser*ingressoValor
+     valorTotalInfo = `R$ ${valorTotal}`//tranformando no formato final da tabela de informações
 }
 else if(tipoJogo===`IN`){
      ingressoValor = tabelaValores[etapaJogo][categoria]/5
      ingressoInfo = `U$ ${ingressoValor}`
-}
-
-let valorTotal = ingressoUser*ingressoValor
-
-//transformando valores no formato final das informações
-if(tipoJogo===`DO`){ 
-    valorTotalInfo = `R$ ${valorTotal}`
-}
-else if(tipoJogo===`IN`){
-    valorTotalInfo = `U$ ${valorTotal}`
+     let valorTotal = ingressoUser*ingressoValor
+     valorTotalInfo = `U$ ${valorTotal}`//tranformando no formato final da tabela de informações
 }
 
 //função para printar informações no console
