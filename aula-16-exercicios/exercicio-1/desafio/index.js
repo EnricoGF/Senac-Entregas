@@ -1,11 +1,3 @@
-/*
-Nome completo:
-Tipo de jogo: IN indica internacional; e DO indica doméstico;
-Etapa do jogo: SF indica semi-final; DT indica decisão de terceiro lugar; e FI indica final;
-Categoria: pode ser as opções 1, 2, 3 ou 4;
-Quantidade de ingressos.
-*/
-
 //tabela de valores dos ingressos domesticos
 const tabelaValores = {
     SF: [ 1320, 880, 550, 220 ],
